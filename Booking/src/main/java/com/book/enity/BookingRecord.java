@@ -7,7 +7,7 @@ public class BookingRecord {
 	
 	@Id
 	String id;
-    
+    private String name;
     private String flightNumber;
     private String origin;
     private String destination;
